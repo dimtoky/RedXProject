@@ -1,5 +1,0 @@
-﻿CREATE TABLE [dbo].[textTable]
-(
-	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
-    [text] VARCHAR(500) NOT NULL
-)
