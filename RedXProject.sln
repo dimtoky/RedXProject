@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedXMonitoringService", "RedXMonitoringService\RedXMonitoringService.csproj", "{12025AAE-BFAE-45FE-8E4E-8806205EC44F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataProviders", "DataProviders\DataProviders.csproj", "{C363B7BA-1F36-44AB-BEBC-BFB4701B93F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedXManager", "RedXManager\RedXManager.csproj", "{89F36701-8173-42C1-8818-AE672A62EB39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedXMonitoringService", "RedXMonitoringService\RedXMonitoringService.csproj", "{5BCD31CC-7CB9-4A18-9281-AA49F7555227}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedXView", "RedXView\RedXView.csproj", "{EA753354-373E-473A-89C8-B9D301C11CED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{12025AAE-BFAE-45FE-8E4E-8806205EC44F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{12025AAE-BFAE-45FE-8E4E-8806205EC44F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{12025AAE-BFAE-45FE-8E4E-8806205EC44F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{12025AAE-BFAE-45FE-8E4E-8806205EC44F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C363B7BA-1F36-44AB-BEBC-BFB4701B93F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C363B7BA-1F36-44AB-BEBC-BFB4701B93F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C363B7BA-1F36-44AB-BEBC-BFB4701B93F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C363B7BA-1F36-44AB-BEBC-BFB4701B93F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89F36701-8173-42C1-8818-AE672A62EB39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89F36701-8173-42C1-8818-AE672A62EB39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89F36701-8173-42C1-8818-AE672A62EB39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89F36701-8173-42C1-8818-AE672A62EB39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BCD31CC-7CB9-4A18-9281-AA49F7555227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BCD31CC-7CB9-4A18-9281-AA49F7555227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BCD31CC-7CB9-4A18-9281-AA49F7555227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BCD31CC-7CB9-4A18-9281-AA49F7555227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA753354-373E-473A-89C8-B9D301C11CED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA753354-373E-473A-89C8-B9D301C11CED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA753354-373E-473A-89C8-B9D301C11CED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA753354-373E-473A-89C8-B9D301C11CED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

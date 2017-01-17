@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Les informations générales relatives à un assembly dépendent de 
 // l'ensemble d'attributs suivant. Changez les valeurs de ces attributs pour modifier les informations
 // associées à un assembly.
-[assembly: AssemblyTitle("RedXMonitoringService")]
+[assembly: AssemblyTitle("RedXManager")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("RedXMonitoringService")]
+[assembly: AssemblyProduct("RedXManager")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Le GUID suivant est pour l'ID de la typelib si ce projet est exposé à COM
-[assembly: Guid("5bcd31cc-7cb9-4a18-9281-aa49f7555227")]
+[assembly: Guid("89f36701-8173-42c1-8818-ae672a62eb39")]
 
 // Les informations de version pour un assembly se composent des quatre valeurs suivantes :
 //
